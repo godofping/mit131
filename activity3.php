@@ -24,7 +24,15 @@
 	  	}
 
 	  	.headtext {
-	  		line-height: 20px;
+	  		line-height: 20%;
+	  	}
+
+	  	.left {
+	  		float: left;
+	  	}
+
+	  	.right {
+	  		float: right; margin-top: 10px;
 	  	}
 
   	</style>
@@ -38,8 +46,8 @@
 		
 		<div class="w3-container">
 			<div>
-				<h5 style="float: left;">My Task</h5>
-				<button style="float: right; margin-top: 10px;"><i class="fa fa-gear input-icon w3-text-gray"></i></button>
+				<h5 class="left">My Task</h5>
+				<button class="right"><i class="fa fa-gear input-icon w3-text-gray"></i></button>
 			</div>
 
 			<div class="w3-row w3-margin-top">
@@ -93,8 +101,8 @@
 		<div class="w3-container">
 			
 			<div>
-				<h5 style="float: left;">Tasks for my Team</h5>
-				<button style="float: right; margin-top: 10px;"><i class="fa fa-gear input-icon w3-text-gray"></i></button>
+				<h5 class="left">Tasks for My Team</h5>
+				<button class="right"><i class="fa fa-gear input-icon w3-text-gray"></i></button>
 			</div>
 
 			<div class="w3-row w3-margin-top">
@@ -148,32 +156,77 @@
 		<div class="w3-container">
 			
 			<div>
-				<h5 style="float: left;">All Zenputz Tasks Nearby</h5>
-				<button style="float: right; margin-top: 10px;"><i class="fa fa-gear input-icon w3-text-gray"></i></button>
+				<h5 class="left">All Zenputz Tasks Nearby</h5>
+				<button class="right"><i class="fa fa-gear input-icon w3-text-gray"></i></button>
 			</div>
 
-			<div class="w3-row w3-margin-top">
 
-			  <div class="w3-col s4">
 
-			  	<div class="w3-card w3-light-grey w3-center w3-round mar">
-			  		<span class="w3-xxlarge">5</span>
-				  	<p class="w3-small title">TASKS</p>
+			<div class="w3-row">
+
+				<hr>
+
+				<div class="w3-col s4">
+
+				  	<div class="w3-card w3-light-grey w3-center w3-round mar">
+				  		<span class="w3-xxlarge">5</span>
+					  	<p class="w3-small title">TASKS</p>
+					</div>
+
 				</div>
 
-			  </div>
+				<div class="w3-col s7">
 
-			  <div class="w3-col s8">
+				  	<div class="w3-left w3-margin-left">
+				  		<span class="w3-medium headtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+					  	<p class="w3-small">12 Gough St</p>
+					</div>
 
-			  	<div class="w3-left w3-margin-left">
-			  		<span class="w3-large headtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-				  	<p class="w3-small title">12 Gough St</p>
 				</div>
 
-			  </div>
+				<div class="w3-col s1">
 
-		
+				  	<div class="w3-left w3-margin-left">
+				  		<p class="w3-small">5.2 mi</p>
+					</div>
+
+				</div>
+
 			</div>
+
+			<div class="w3-row">
+
+				<hr>
+
+				<div class="w3-col s4">
+
+				  	<div class="w3-card w3-light-grey w3-center w3-round mar">
+				  		<span class="w3-xxlarge">5</span>
+					  	<p class="w3-small title">TASKS</p>
+					</div>
+
+				</div>
+
+				<div class="w3-col s7">
+
+				  	<div class="w3-left w3-margin-left">
+				  		<span class="w3-medium headtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+					  	<p class="w3-small">12 Gough St</p>
+					</div>
+
+				</div>
+
+				<div class="w3-col s1">
+
+				  	<div class="w3-left w3-margin-left">
+				  		<p class="w3-small">5.2 mi</p>
+					</div>
+
+				</div>
+
+			</div>
+
+
 
 		</div>
 	
