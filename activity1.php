@@ -58,7 +58,7 @@
 		
 		<img src="img/fbgroupicon.png" class="center w3-margin-top">
 
-			<div class="w3-container w3-center">
+		<div class="w3-container w3-center">
 			<h1>Facebook</h1>
 			<h1 class="groups">Groups</h1>
 
